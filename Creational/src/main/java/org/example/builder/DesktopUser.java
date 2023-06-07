@@ -5,6 +5,7 @@ class DesktopUser{
     private String name;
     public DesktopUser(String name){
         this.name = name;
+        System.out.println(System.getProperty("user.dir"));
     }
     public String getName() {
         return name;

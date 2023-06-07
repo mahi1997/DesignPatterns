@@ -2,10 +2,7 @@ package org.example.builder;
 
 import org.junit.Test;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -26,7 +23,6 @@ public class DesktopUserTest {
         set.add(10);
         set.remove(90);
         System.out.println(set.iterator().next());
-
 
 
     }
